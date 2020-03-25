@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.mxc.org/</loc>
+  <lastmod>2019-05-27T16:04:06+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mxc.org/hubfs/WP/MXC_technical_whitepaper.pdf?utm_source=website&amp;utm_medium=Technology&amp;utm_campaign=Technical_Whitepaper</loc>
+  <lastmod>2019-05-27T15:12:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mxc.org/hubfs/downloads/mxc_smb_whitepaper.pdf?utm_source=website&amp;utm_medium=Technology&amp;utm_campaign=Smart_Bidding</loc>
+  <lastmod>2019-05-27T15:12:35+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mxc.org/hubfs/WP/MXC_economic_whitepaper.pdf</loc>
+  <lastmod>2019-05-27T15:12:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mxc.org/hubfs/WP/MXC_technical_whitepaper.pdf</loc>
+  <lastmod>2019-05-27T15:12:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mxc.org/get-mxc</loc>
+  <lastmod>2019-05-26T09:33:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mxc.org/imprint</loc>
+  <lastmod>2019-05-25T22:05:29+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mxc.org/privacy-policy</loc>
+  <lastmod>2019-05-26T09:34:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
