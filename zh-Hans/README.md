@@ -1,3 +1,3 @@
-# MXC极域 网页
+# MXC Website
 
-追踪MXC极域网站上更改的版本。 
+Version tracking for changes on the MXC Website. 
