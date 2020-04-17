@@ -1,3 +1,3 @@
-# MXC Website
+# MXC 웹사이트
 
-Version tracking for changes on the MXC Website. 
+MXC 웹사이트 변형 버젼 트래킹 
