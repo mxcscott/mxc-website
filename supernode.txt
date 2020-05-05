@@ -4,7 +4,7 @@
   "misc": {
     "logo": "https://lora.rosanetworks.com//branding.png",
     "appver":"1.0.1",
-    "aplurl":"https://lora.rosanetworks.com/app/mxc1_0_1.apk"
+    "apkurl":"https://lora.rosanetworks.com/app/mxc1_0_1.apk"
     }
   },
   "XY": {
@@ -13,7 +13,7 @@
   "misc": {
     "logo": "https://mxcxy.com//branding.png",
     "appver":"1.0.1",
-    "aplurl":"https://mxcxy.com/app/mxc1_0_1.apk"
+    "apkurl":"https://mxcxy.com/app/mxc1_0_1.apk"
     }
   },
   "Huaweitech": {
@@ -22,7 +22,7 @@
   "misc": {
     "logo": "https://lora.hunanhuaweikeji.com//branding.png",
     "appver":"1.0.1",
-    "aplurl":"https://lora.hunanhuaweikeji.com/app/mxc1_0_1.apk"
+    "apkurl":"https://lora.hunanhuaweikeji.com/app/mxc1_0_1.apk"
     }
   },
   "MatchX": {
@@ -31,7 +31,7 @@
   "misc": {
     "logo": "https://lora.supernode.matchx.io//branding.png",
     "appver":"1.0.1",
-    "aplurl":"https://lora.supernode.matchx.io/app/mxc1_0_1.apk"
+    "apkurl":"https://lora.supernode.matchx.io/app/mxc1_0_1.apk"
     }
   },
 
