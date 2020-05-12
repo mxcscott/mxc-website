@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="13px" viewBox="0 0 23 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Solid/chevron-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11.6881226,18.6026131 L2.19871826,9.11316 C1.74105225,8.65549399 1.74105225,7.9135018 2.19871826,7.45588461 L3.30550537,6.3490975 C3.76239014,5.89221274 4.50286865,5.89133383 4.96082764,6.34714438 L12.5167847,13.867701 L20.0726929,6.34714438 C20.5306519,5.89133383 21.2711304,5.89221274 21.7280151,6.3490975 L22.8348022,7.45588461 C23.2924683,7.91355063 23.2924683,8.65554282 22.8348022,9.11316 L13.3454468,18.6026131 C12.8877808,19.0602303 12.1457886,19.0602303 11.6881226,18.6026131 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About" transform="translate(-711.000000, -2251.000000)">
+            <g id="Solid/chevron-down" transform="translate(710.000000, 2245.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="Palette/Dark-Grey" mask="url(#mask-2)" fill="#343434" fill-rule="evenodd">
+                    <rect id="Rectangle-Copy-12" transform="translate(12.500000, 12.500000) rotate(90.000000) translate(-12.500000, -12.500000) " x="0" y="-1.77635684e-15" width="25" height="25" rx="5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

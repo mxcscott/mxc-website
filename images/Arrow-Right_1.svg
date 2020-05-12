@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="28px" viewBox="0 0 19 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Solid/Arrow Right</title>
+    <defs>
+        <polygon id="path-1" points="22.32 40.1052 33.6784 29.64 22.32 19.1748 25.8168 15.96 40.6968 29.64 25.8168 43.32"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Supernode" transform="translate(-1061.000000, -5915.000000)">
+            <g id="Solid/Arrow-Right" transform="translate(1039.000000, 5899.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="Palette/White" mask="url(#mask-2)" fill="#343434" fill-rule="evenodd">
+                    <path d="M7.5,-2.5 L54.5,-2.5 C57.2614237,-2.5 59.5,-0.261423749 59.5,2.5 L59.5,54.5 C59.5,57.2614237 57.2614237,59.5 54.5,59.5 L7.5,59.5 C4.73857625,59.5 2.5,57.2614237 2.5,54.5 L2.5,2.5 C2.5,-0.261423749 4.73857625,-2.5 7.5,-2.5 Z" id="Rectangle-Copy-9" transform="translate(31.000000, 28.500000) rotate(90.000000) translate(-31.000000, -28.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
