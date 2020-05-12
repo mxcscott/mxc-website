@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="28px" viewBox="0 0 19 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Solid/Arrow Right</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="22.3543787 40.1052 33.7302736 29.64 22.3543787 19.1748 25.8565647 15.96 40.7594838 29.64 25.8565647 43.32"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Supernode" transform="translate(-953.000000, -5212.000000)">
+            <g id="Group-3" transform="translate(695.000000, 5022.000000)">
+                <g id="Group-2" transform="translate(2.000000, 174.000000)">
+                    <g id="Group" transform="translate(29.098305, 0.000000)">
+                        <g id="Solid/Arrow-Right" transform="translate(205.000000, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g id="Palette/White" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                <path d="M7.54774818,-2.54774818 L54.5477482,-2.54774818 C57.3091719,-2.54774818 59.5477482,-0.309171933 59.5477482,2.45225182 L59.5477482,54.5477482 C59.5477482,57.3091719 57.3091719,59.5477482 54.5477482,59.5477482 L7.54774818,59.5477482 C4.78632443,59.5477482 2.54774818,57.3091719 2.54774818,54.5477482 L2.54774818,2.45225182 C2.54774818,-0.309171933 4.78632443,-2.54774818 7.54774818,-2.54774818 Z" id="Rectangle-Copy-9" transform="translate(31.047748, 28.500000) rotate(90.000000) translate(-31.047748, -28.500000) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
