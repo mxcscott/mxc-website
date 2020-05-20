@@ -8788,6 +8788,12 @@ strong {
   .image-40 {
     max-width: 50%;
   }
+  .navbarkr {
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+  }
 }
 
 #w-node-5b1d569c21e5-fe804c34 {
