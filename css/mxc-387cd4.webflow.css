@@ -2733,6 +2733,11 @@ strong {
   background-image: url('../images/default-profile.svg');
 }
 
+.teamimage.ian {
+  height: 280px;
+  background-image: url('../images/ian-copy-min.jpg');
+}
+
 .div-block-48 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5724,6 +5729,9 @@ strong {
   .teamimage.pavel {
     height: 320px;
   }
+  .teamimage.ian {
+    height: 320px;
+  }
   .m2mtoken {
     display: -webkit-box;
     display: -webkit-flex;
@@ -6317,6 +6325,9 @@ strong {
     height: 250px;
   }
   .teamimage.luke {
+    height: 250px;
+  }
+  .teamimage.ian {
     height: 250px;
   }
   .ambassadors {
