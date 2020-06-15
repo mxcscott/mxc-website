@@ -688,6 +688,24 @@ strong {
   text-align: left;
 }
 
+.paragraph.download {
+  margin-top: 32px;
+  font-size: 23px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.paragraph.getdatadash {
+  margin-top: 43px;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.paragraph.getdatadash.mobile {
+  display: none;
+}
+
 .div-left {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2058,6 +2076,10 @@ strong {
   align-self: flex-start;
 }
 
+.div-block-31.mobile {
+  display: none;
+}
+
 .image-20 {
   width: 160px;
   max-width: 200px;
@@ -3222,6 +3244,7 @@ strong {
 
 .button-4 {
   width: 160px;
+  margin-top: 11px;
   padding-left: 0px;
   background-color: transparent;
   background-image: url('../images/Arrow-Right_1.svg');
@@ -4872,7 +4895,7 @@ strong {
 }
 
 .list-item-4 {
-  display: none;
+  display: block;
 }
 
 .rich-text-block-2 {
@@ -7920,6 +7943,23 @@ strong {
   .paragraph.exchanges {
     text-align: center;
   }
+  .paragraph.download {
+    text-align: center;
+  }
+  .paragraph.getdatadash {
+    display: none;
+  }
+  .paragraph.getdatadash.mobile {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    font-size: 24px;
+    text-align: center;
+  }
   .div-left {
     height: 450px;
     padding-top: 25px;
@@ -8201,6 +8241,11 @@ strong {
     width: 90vw;
   }
   .div-block-13.supernode {
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -8393,6 +8438,7 @@ strong {
     align-self: center;
   }
   .div-block-31 {
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -8402,6 +8448,12 @@ strong {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+  .div-block-31.mobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
   .div-block-32 {
     margin-right: 0px;
