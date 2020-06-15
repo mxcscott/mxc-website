@@ -1,20 +1,20 @@
-name: Upload Website
-
+name: Deploy chinese website
 on:
   push:
     branches:
-    - master
+    - suhee/China-mxcwebsite
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: jakejarvis/s3-sync-action@master
+    - uses: actions/checkout@v2
+    - name: rsync deployments
+      uses: burnett01/rsync-deployments@4.0
       with:
-        args: --acl public-read --follow-symlinks --delete --exclude '.git/*'
-      env:
-        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'eu-central-1'   # optional: defaults to us-east-1
+        switches: -avzr --delete
+        path: .
+        remote_path: /home/ubuntu/reverse-proxy/data/mxc-website
+        remote_host: mxcchengdu.com
+        remote_user: ubuntu
+        remote_key: ${{ secrets.DEPLOY_KEY }}
