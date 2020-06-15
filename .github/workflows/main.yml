@@ -12,7 +12,7 @@ jobs:
     - name: rsync deployments
       uses: burnett01/rsync-deployments@4.0
       with:
-        switches: -r --exclude=*.git --exclude=*.github --progress
+        switches: -c -r --exclude=*.git --exclude=*.github --progress
         path: .
         remote_path: ${{ secrets.DEPLOY_PATH }}
         remote_host: ${{ secrets.DEPLOY_HOST }}
