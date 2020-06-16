@@ -3235,7 +3235,7 @@ strong {
 }
 
 .dropdown-toggle-4 {
-  display: none;
+  display: block;
   overflow: visible;
 }
 
@@ -5033,6 +5033,43 @@ strong {
   color: #00ffd9;
 }
 
+.button-9 {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px 33px 20px 71px;
+  border: 2px solid #000;
+  border-radius: 9px;
+  background-color: #000;
+  background-image: url('../images/logo_play.svg');
+  background-position: 5% 50%;
+  background-size: 10%;
+  background-repeat: no-repeat;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+
+.button-9.google {
+  width: 300px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 0px;
+  padding: 14px 21px 14px 0px;
+  font-size: 16px;
+  text-align: right;
+}
+
+.button-9.ios {
+  width: 300px;
+  margin: 12px 0px;
+  padding: 14px 33px 14px 0px;
+  background-color: #fff;
+  background-image: url('../images/applelogo.svg');
+  color: #333;
+  font-size: 16px;
+  text-align: right;
+}
+
 @media screen and (min-width: 1280px) {
   .heroheading {
     font-size: 40px;
@@ -6212,10 +6249,10 @@ strong {
     align-self: center;
   }
   .video._1 {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 auto;
-    -ms-flex: 0 auto;
-    flex: 0 auto;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
   .div-block-35 {
     width: auto;
@@ -6818,6 +6855,12 @@ strong {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+  }
+  .button-9.google {
+    margin: 10px;
+  }
+  .button-9.ios {
+    margin: 9px;
   }
 }
 
@@ -8813,6 +8856,18 @@ strong {
     top: 0%;
     right: 0%;
     bottom: auto;
+  }
+  .button-9.google {
+    width: auto;
+    padding-right: 12px;
+    padding-left: 47px;
+    font-size: 15px;
+  }
+  .button-9.ios {
+    width: auto;
+    padding-right: 26px;
+    padding-left: 60px;
+    font-size: 15px;
   }
 }
 
