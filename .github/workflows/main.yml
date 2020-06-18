@@ -1,4 +1,4 @@
-name: Upload Website
+name: Running link checker
 
 on:
   push:
