@@ -2125,8 +2125,9 @@ strong {
 }
 
 .image-20 {
-  width: 160px;
-  max-width: 200px;
+  width: auto;
+  height: 45px;
+  max-width: none;
 }
 
 .div-block-32 {
@@ -2744,7 +2745,7 @@ strong {
 
 .teamimage.lixuan {
   height: 280px;
-  background-image: url('../images/Lixuan-min.jpg');
+  background-image: url('../images/Lixuan02-400px-min.png');
 }
 
 .teamimage.suhee {
@@ -2771,12 +2772,12 @@ strong {
 
 .teamimage.kirill {
   height: 280px;
-  background-image: url('../images/Kirill-min.jpeg');
+  background-image: url('../images/Kirill_2-400px-min.png');
 }
 
 .teamimage.jakub {
   height: 280px;
-  background-image: url('../images/jakub.jpeg');
+  background-image: url('../images/Jakub400px-min.png');
 }
 
 .teamimage.default {
@@ -2803,7 +2804,7 @@ strong {
   background-size: contain;
 }
 
-.teamimage.pavel {
+.teamimage.defaultprofile {
   height: 280px;
   background-image: url('../images/default-profile.svg');
 }
@@ -2811,6 +2812,16 @@ strong {
 .teamimage.ian {
   height: 280px;
   background-image: url('../images/ian-copy-min.jpg');
+}
+
+.teamimage.pavel {
+  height: 280px;
+  background-image: url('../images/Pavel400px-min.png');
+}
+
+.teamimage.namgyeong {
+  height: 280px;
+  background-image: url('../images/Nam400px-min.png');
 }
 
 .div-block-48 {
@@ -6047,11 +6058,11 @@ strong {
     padding-left: 8px;
   }
   .teamimage.kirill {
-    background-image: url('../images/Kirill-min.jpeg');
+    background-image: url('../images/Kirill_2-400px-min.png');
     background-size: cover;
   }
   .teamimage.jakub {
-    background-image: url('../images/jakub.jpeg');
+    background-image: url('../images/Jakub400px-min.png');
   }
   .contents-wrapper {
     background-image: url('../images/tokenpage-bg.png');
@@ -6310,6 +6321,12 @@ strong {
   }
   .teamimage.siwon {
     background-image: url('../images/Siwon01-min.jpg');
+  }
+  .teamimage.kirill {
+    background-image: url('../images/Kirill_2-400px-min.png');
+  }
+  .teamimage.jakub {
+    background-image: url('../images/Jakub400px-min.png');
   }
   .paragraphwhite {
     font-size: 1.125rem;
@@ -6650,14 +6667,22 @@ strong {
   }
   .teamimage.kirill {
     height: 320px;
+    background-image: url('../images/Kirill_2-400px-min.png');
   }
   .teamimage.jakub {
+    height: 320px;
+    background-image: url('../images/Jakub400px-min.png');
+  }
+  .teamimage.defaultprofile {
+    height: 320px;
+  }
+  .teamimage.ian {
     height: 320px;
   }
   .teamimage.pavel {
     height: 320px;
   }
-  .teamimage.ian {
+  .teamimage.namgyeong {
     height: 320px;
   }
   .m2mtoken {
@@ -7098,10 +7123,10 @@ strong {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -7293,10 +7318,16 @@ strong {
   .teamimage.jakub {
     height: 250px;
   }
-  .teamimage.pavel {
+  .teamimage.defaultprofile {
     height: 250px;
   }
   .teamimage.ian {
+    height: 250px;
+  }
+  .teamimage.pavel {
+    height: 250px;
+  }
+  .teamimage.namgyeong {
     height: 250px;
   }
   .ambassadors {
@@ -9474,7 +9505,10 @@ strong {
     align-self: center;
   }
   .div-block-31 {
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
