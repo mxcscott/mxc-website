@@ -1717,7 +1717,7 @@ body {
   right: 0%;
   bottom: -11%;
   width: auto;
-  height: 65vh;
+  height: 60vh;
   max-width: none;
   margin-top: auto;
   margin-right: auto;
@@ -1806,6 +1806,8 @@ body {
 }
 
 .link {
+  padding-top: 31px;
+  padding-bottom: 31px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
