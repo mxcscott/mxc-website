@@ -7,7 +7,7 @@
             maskTipDom = document.getElementById('maskTip');
 
 
-        if(!isWeixin){
+        if(isWeixin){
             downloadApkDom.onclick = function(e){
                 window.event ? window.event.returnValue = false : e.preventDefault();
                 maskTipDom.style.display = 'block';
