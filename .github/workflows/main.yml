@@ -1,4 +1,4 @@
-name: Deploy chinese website
+name: Deploy website mxcchengdu.com
 on:
   push:
     branches:
