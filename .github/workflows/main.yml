@@ -5,6 +5,12 @@ on:
     - suhee/mxchainan
 
 jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo ${{ secrets.DEPLOY_PATH_CHAINAN }}
+
   test:
     runs-on: ubuntu-latest
     steps:
@@ -16,7 +22,7 @@ jobs:
         args: -v -r . -x [(beian.miit.gov.cn|twitter|linkedin)]
     - name: Fail if there were link errors
       run: exit ${{ steps.lc.outputs.exit_code }}
-      
+   
   deploy:
     needs: test
     runs-on: ubuntu-latest
