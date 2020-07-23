@@ -2,7 +2,7 @@ name: Deploy website mxchainan.com
 on:
   push:
     branches:
-    - suhee/China-mxcwebsite
+    - suhee/mxchainan
 
 jobs:
   test:
