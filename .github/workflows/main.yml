@@ -1,9 +1,8 @@
-name: Running link checker
-
+name: Deploy website mxchainan.com
 on:
   push:
     branches:
-    - master
+    - suhee/China-mxcwebsite
 
 jobs:
   test:
@@ -14,7 +13,22 @@ jobs:
       id: lc
       uses: peter-evans/link-checker@v1
       with:
-        args: -v -r . -x linkedin.com
+        args: -v -r . -x [(beian.miit.gov.cn|twitter|linkedin)]
     - name: Fail if there were link errors
       run: exit ${{ steps.lc.outputs.exit_code }}
-                
+      
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: rsync deployments
+      uses: burnett01/rsync-deployments@4.0
+      with:
+        switches: -c -r --exclude=*.git --exclude=*.github --progress
+        path: .
+        remote_path: ${{ secrets.DEPLOY_PATH_CHAINAN }}
+        remote_host: ${{ secrets.DEPLOY_HOST }}
+        remote_port: ${{ secrets.DEPLOY_PORT }}
+        remote_user: ${{ secrets.DEPLOY_USER }}
+        remote_key: ${{ secrets.DEPLOY_KEY }}
