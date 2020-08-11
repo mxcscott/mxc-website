@@ -15,6 +15,12 @@ jobs:
       with:
         args: -v -r . 
       
+    - name: Archive linkchecker results
+      uses: actions/upload-artifact@v2
+      with:
+        name: link-checker-results
+        path: link-checker/out.md
+      
   deploy:
     needs: test
     runs-on: ubuntu-latest
