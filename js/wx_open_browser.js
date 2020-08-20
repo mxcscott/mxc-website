@@ -1,6 +1,6 @@
 (function(){
     function init() {
-        var ua = navigator.userAgent,
+        var ua = navigator.userAgent.toLowerCase();
         var isWeixin = ua.indexOf('micromessenger') != -1;
     
         var downloadApkDom = document.getElementById('downloadApk'),
