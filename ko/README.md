@@ -1,3 +1,3 @@
-# MXC Website ![Deploy chinese website](https://github.com/mxc-foundation/mxc-website/workflows/Deploy%20chinese%20website/badge.svg?branch=suhee%2FChina-mxcwebsite)
+# MXC Website ![Running link checker](https://github.com/mxc-foundation/mxc-website/workflows/Running%20link%20checker/badge.svg?branch=master)
 
 MXC 웹사이트 변형 버젼 트래킹 
