@@ -1,25 +1,24 @@
 (function(){
     function init() {
         var ua = navigator.userAgent,
-        isWeixin = !!/MicroMessenger/i.test(ua);
+            isWeixin = !!/MicroMessenger/i.test(ua);
     
         var downloadApkDom = document.getElementById('downloadApk'),
             maskTipDom = document.getElementById('maskTip');
 
 
-        if(isWeixin){
-            downloadApkDom.onclick = function(e){
-                window.event ? window.event.returnValue = false : e.preventDefault();
+        downloadApkDom.onclick = function(e){
+            if(isWeixin){
                 maskTipDom.style.display = 'block';
+            }else{
+                window.location.href = 'https://datadash.oss-accelerate.aliyuncs.com/app-prod-release.apk';
             }
-    
-            maskTipDom.onclick = function(e){
-                this.style.display = 'none';
-            }
+        }
+
+        maskTipDom.onclick = function(e){
+            this.style.display = 'none';
         }
     }
 
-    window.onload = function(){
-        init();
-    }
+    window.onload = init;
 })();
