@@ -5893,6 +5893,19 @@ strong {
   font-weight: 500;
 }
 
+.image-50 {
+  display: block;
+  max-width: 100%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.image-51 {
+  max-width: 100%;
+}
+
 @media screen and (min-width: 1280px) {
   .heroheading {
     font-size: 40px;
