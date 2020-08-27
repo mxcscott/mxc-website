@@ -14,7 +14,10 @@ jobs:
       id: lc
       uses: peter-evans/link-checker@v1
       with:
-        args: -v -r . -x [(twitter|linkedin)]
-    - name: Fail if there were link errors
-      run: exit ${{ steps.lc.outputs.exit_code }}
-                
+        args: -v -r . 
+
+    - name: Archive linkchecker results
+      uses: actions/upload-artifact@v2
+      with:
+        name: link-checker-results
+        path: link-checker/out.md
