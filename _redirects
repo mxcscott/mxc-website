@@ -137,13 +137,13 @@
 /press-releases/mxc-announces-quarkchain-as-newest-investor https://blog.mxc.org/mxc-quarkchain-investor
 /press-releases/mxc-backers-believe-in-the-future-of-iot https://blog.mxc.org/mxc-backers-future-of-iot
 /smart-city-iot-standard-mxc /
-/team/about-us /#about
+/team/about-us /mxc-about
 /use-case/mxc-in-south-korea https://blog.mxc.org/mxc-public-health-south-korea
 /use-cases /
-/where-to-get-mxc /#get-mxc
-/where-to-get-mxc?hsLang=ko-kr /#get-mxc
-/where-to-get-mxc?hsLang=zh /#get-mxc
-/where-to-get-mxc?hsLang=zh-tw /#get-mxc
+/where-to-get-mxc /mxc-token
+/where-to-get-mxc?hsLang=ko-kr /mxc-token
+/where-to-get-mxc?hsLang=zh /mxc-token
+/where-to-get-mxc?hsLang=zh-tw /mxc-token
 /zh-tw/ /
 /zh/ /cn
 /blog/nyc-adopts-smart-city-tech-with-mxprotocol-iot-standard https://blog.mxc.org/nyc-adopts-mxprotocol
@@ -245,7 +245,7 @@
 /blog/korean-national-electricity-grid-withsystem https://blog.mxc.org/korean-national-electricity-grid-withsystem/
 /faq /
 /careers https://www.indeedjobs.com/mxc-foundation-ggmbh
-/about /#about
+/about /mxc-about
 /contact /imprint
 /blog/one-integration-at-a-time https://blog.mxc.org/one-integration-at-a-time/
 /hubfs/WP/MXC_economic_whitepaper.pdf* /documents/MXC_economic_whitepaper-01.pdf
