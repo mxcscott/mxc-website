@@ -170,7 +170,7 @@ strong {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  background-image: url('../images/Hero-background-min-1.png');
+  background-image: url('../images/Hero-background-min.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -254,7 +254,7 @@ strong {
   border-width: 1px;
   border-color: #fff;
   border-radius: 30px;
-  background-image: url('../images/button-image-min.png');
+  background-image: url('../images/button-image-min.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -355,6 +355,7 @@ strong {
 .grid-3.map.mobile {
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+  background-image: url('../images/map-background.jpg');
   background-position: 50% 50%;
 }
 
@@ -384,7 +385,7 @@ strong {
 
 .m2mtokenimage.mobile {
   height: 450px;
-  background-image: url('../images/Hero-background-min-1.png');
+  background-image: url('../images/Hero-background-min.jpg');
 }
 
 .rightdiv {
@@ -558,7 +559,7 @@ strong {
   width: 250px;
   padding: 11px 31px;
   border-radius: 20px;
-  background-image: url('../images/button-image-min.png');
+  background-image: url('../images/button-image-min.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -566,6 +567,10 @@ strong {
   font-size: 17px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.button2.dark {
+  background-image: url('../images/button-image-min.jpg');
 }
 
 .stakingimage {
@@ -603,7 +608,7 @@ strong {
 
 .gatewayimage {
   height: 450px;
-  background-image: url('../images/gateway.png');
+  background-image: url('../images/gateway.jpg');
   background-position: 50% 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -966,6 +971,7 @@ strong {
 
 .abouttoken.token {
   position: static;
+  background-image: url('../images/tokenpage-bg.png');
 }
 
 .grid-5 {
@@ -1505,7 +1511,7 @@ strong {
 
 .section-6 {
   height: auto;
-  background-image: url('../images/backgroundx1-min-min-1.png');
+  background-image: url('../images/backgroundx1-min-min-2.jpg');
   background-position: 0% 0%;
   background-size: cover;
   background-repeat: repeat-y;
@@ -1637,7 +1643,7 @@ strong {
 }
 
 .supernode-operators {
-  background-image: url('../images/backgroundx1-min-min-1.png');
+  background-image: url('../images/backgroundx1-min-min-2.jpg');
   background-position: 100% 0%;
   background-size: cover;
   background-repeat: repeat-y;
@@ -2553,7 +2559,7 @@ strong {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background-image: url('../images/5eaace7c84115727025ce551_Sheentalking-min-1.png');
+  background-image: url('../images/Sheentalking.jpg');
   background-position: 100% 50%;
   background-size: cover;
 }
@@ -3219,7 +3225,7 @@ strong {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/Hero-background-min-1.png');
+  background-image: url('../images/Hero-background-min.jpg');
   background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3792,10 +3798,6 @@ strong {
 .datadash {
   width: 100vw;
   height: 130vh;
-  background-image: none;
-  background-position: 0px 0px;
-  background-size: auto;
-  background-repeat: repeat;
 }
 
 .div-block-131 {
@@ -4028,7 +4030,7 @@ strong {
   border-top: 1px solid #ebeff2;
   border-bottom: 1px solid #ebeff2;
   background-color: #fff;
-  background-image: url('../images/Iphone-screens-ios3x-min.png');
+  background-image: url('../images/acec_Iphone-screens-ios.png');
   background-position: 90% 50%;
   background-size: auto 400px;
   background-repeat: no-repeat;
@@ -4147,7 +4149,7 @@ strong {
   -ms-flex: 1;
   flex: 1;
   background-color: #ebeff2;
-  background-image: url('../images/long-scroll-iphone-resized-min.png');
+  background-image: url('../images/long-scroll-iphone-mxcdatadash.png');
   background-position: 50% 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -4246,8 +4248,8 @@ strong {
 
 .div-block-155 {
   height: 130vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(50%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url('../images/iPhone-XR-Isometric-higher-res-min_1.png');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.8)), url('../images/iPhone-XR-Isometric-higher-res-min_1.png');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(50%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url('../images/mxcdatadashapphero.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.8)), url('../images/mxcdatadashapphero.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -4388,7 +4390,7 @@ strong {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background-image: url('../images/newheroimage-min.png');
+  background-image: url('../images/newheroimagemxc-min.png');
   background-position: 50% 0%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -5243,6 +5245,10 @@ strong {
   }
   .image-56 {
     max-width: 100%;
+  }
+  .div-block-155 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), color-stop(50%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.8))), url('../images/mxcdatadashapphero.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.8)), url('../images/mxcdatadashapphero.jpg');
   }
   .div-block-158 {
     width: 1100px;
